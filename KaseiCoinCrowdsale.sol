@@ -9,7 +9,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5
 // * MintedCrowdsale
 contract KaseiCoinCrowdsale is Crowdsale, MintedCrowdsale { 
     
-    // Provide parameters for all of the features of your crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
+    // Provide parameters for all of the features of the crowdsale, such as the `rate`, `wallet` for fundraising, and `token`.
     constructor(
         uint256 rate,
         address payable wallet,
